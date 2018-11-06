@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device=width">
+	<link rel="stylesheet" href="css/style.css">
+	<title>Sobre A.B</title>
+</head>
+<body> 
+
+	<header>
+		<div class="container">
+			<div id="branding">
+				<h1><span class="highlight">Alexandra</span>Barcellos</h1>
+			</div>
+			<nav>
+				<ul>
+					<li class="btn-group btn-group-lg" role"group"><a href="index.html">Ínicio</a></li>
+					<li><a href="about.html">SOBRE</a></li>
+					<li><a href="login.html">OBRAS</a></li>
+					<li><a href="login.html">EVENTOS</a></li>
+					<li><a href="contato.html">CONTATO</a></li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+	
+	<br><br><br>
+
+	<h2 class="container">Amor á primeira página,</h2><br>
+	<h3 class="container" style="font-family: Verdana;"><p> Aos 11 anos Alexandra Barcellos se apaixonava pela poesia, uma paixão que levará pro resto da sua vida. Paranaense, nascida em  Foz do Iguaçu, uma das 7 maravilhas do mundo, a escritora buscou inspirações em vários lugares, experiências e pessoas diferentes ao passar da sua vida que trás em seus livros em forma de contos, romances, poesias e muito mais.  Além de escritora, Alexandra é filha, mãe, amiga, de sorriso fácil e sincero, que apesar do passar do tempo manteve sua alma sempre jovem. 
+	</p></h3>
+	<section id="newsletter">
+		<div class="container">
+			<h1>Receba notícias ou entre em contato:</h1>
+			<form action="email.php" method="post" name="email">
+				<input type="email" name="email" placeholder="Enter Email...">
+				<button type="submit" class="button_2">Subscribe</button>
+			</form>	
+		</div>
+	</section>
+</body>
+</html>
