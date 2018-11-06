@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device=width">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/style.css">
+	<title>EVENTOS</title>
+</head>
+<body>
+	<header>
+		<div class="container">
+			<div id="branding">
+				<h1><span class="highlight">Alexandra</span>Barcellos</h1>
+			</div>
+			<nav>
+				<ul>
+					<li class="btn-group btn-group-lg" role"group"><a href="index.html">Ínicio</a></li>
+					<li><a href="about.html">SOBRE</a></li>
+					<li><a href="login.html">OBRAS</a></li>
+					<li><a href="eventos.html">EVENTOS</a></li>
+					<li><a href="contato.html">CONTATO</a></li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+	<br><br>
+	<h2 class="container">Próximos eventos:</h2>
+	<br>
+	<br> 
+
+	<?php 
+
+	include 'conn.php';
+
+	$sql = "SELECT evento, data, local FROM table_eventos";
+
+	$result = mysqli_query($conn, $sql);
+
+	if(mysqli_affected_rows($conn) > 0)
+	{
+
+		// criar array para receber registros vindos da tabela
+		$registros = array();
+
+		// enquanto tiver registros armazenados em 'resultado', pegue os dados e os armazene em uma nova posição do array associativo 'registro'
+		
+		print '<table class="container">';
+		print '<tr>'; // linha da tabela
+	    print '<th class="table table-striped">Evento</th>'; // coluna 1
+		print '<th class="table table-striped">Data</th>'; // coluna 2
+		print '<th class="table table-striped">Local</th>'; // coluna 3
+		print '</tr>';
+
+
+		while($registros = mysqli_fetch_assoc($result))
+		{
+			print '<tr>';
+			// foreach para percorrer o array associativo
+			foreach ($registros as $valor) 
+			{
+				print "<td>" . $valor . "</td>";
+			}
+			print '</tr>';
+		}
+		print '</table>';
+
+	}// fim if 'resultado'
+	else if(mysqli_affected_rows($conn) == 0)
+	{
+		print '<h3 class="text-warning">Não há eventos cadastrados no momento...</h3>';
+	}
+	else
+	{
+		print '<h3 class="text-danger">Erro no sql:<br>'.$sql.'<br>';
+		print mysqli_error($conn).'</h3>';
+	}
+
+
+
+
+	?>	
+
+
+</body>
+</html>
