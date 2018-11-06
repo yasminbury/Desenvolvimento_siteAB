@@ -1,0 +1,48 @@
+---------------------------------------------
+<?php  
+
+define('SERVERNAME', 'localhost');
+define('USERNAME', 'root');
+define('PASSWORD', '');
+define('DBNAME', 'database_ab');
+
+$conn = mysqli_connect(SERVERNAME, USERNAME, PASSWORD, DBNAME);
+
+
+if (!$conn) 
+{ 
+	die("Erro ao conectar: " . mysqli_connect_error());
+}
+
+?> 
+---------------------------------------------
+
+
+<?php 
+
+
+if(!empty($_POST['email']))
+{   
+
+	$email = $_POST['email'];
+
+		// INCLUIR ARQUIVO DE CONEXÃO:
+	include 'conn.php'; 
+
+		// criar sql:
+	$sql = "INSERT INTO table_email (email) 
+	VALUES ('$email')";
+
+	$result = mysqli_query($conn, $sql);
+
+	if($result)
+	{
+		mysqli_close($conn);
+	}
+		else // senão
+		{
+			print 'Erro ao enviar notícias!<br>';
+			print 'SQL: ' . $sql . '<br>';
+			echo mysqli_error($conn);
+		}
+	}
