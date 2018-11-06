@@ -1,0 +1,74 @@
+   <!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device=width">
+	<title>Welcome</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+
+	<header>
+		<div class="container">
+			<div id="branding">
+				<h1><span class="highlight">Alexandra</span>Barcellos</h1>
+			</div>
+			<nav>
+				<ul>
+					<li class="btn-group btn-group-lg" role"group"><a href="index.html">Ínicio</a></li>
+					<li><a href="about.html">SOBRE</a></li>
+					<li><a href="login.html">OBRAS</a></li>
+          <li><a href="eventos.php">EVENTOS</a></li>
+          <li><a href="contact.html">CONTATO</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section id="showcase">
+    <div class="container">
+     <h1>Literatura Brasileira</h1>
+     <p>Você escreve poesias para não esquecer das pessoas?</p>
+     <div id="midias"></div>
+   </div>
+ </section>
+
+ <section id="newsletter">
+  <div class="container">
+    <h1>Receba notícias ou entre em contato:</h1>
+    <form action="email.php" method="post" name="email">
+      <input type="email" name="email" placeholder="Enter Email...">
+      <button type="submit" class="button_2">Subscribe</button>
+    </form>
+  </div>
+</section>
+
+<section id="boxes">
+  <div class="container">
+    <div class="box">
+      <img src="http://4.bp.blogspot.com/-qp9c4fDEADw/VA5Loz_ixzI/AAAAAAAACbk/s6CLmk6wk_o/s1600/alexandra%2B1.jpg">
+      <h3>Velho Talismã</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus mi augue, viverra sit amet ultricies</p>
+    </div>
+    <div class="box">
+      <img src="https://cdn.shopify.com/s/files/1/0837/0935/products/encontro-na-mata-dos-macacos_1024x1024.jpg?v=1445637229">
+      <h3>O Encontro na Mata<br> dos Macacos</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus mi augue, viverra sit amet ultricies</p>
+    </div>
+    <div class="box">
+      <img src="https://3.bp.blogspot.com/-VcvJMgEt00s/WgDrPlIa9lI/AAAAAAAAPlk/zoO6x_CSjKk3nyuKouM6g_mPQuWe6Cn9QCLcBGAs/s1600/O%2Bbosque%2BAmazona%2Bcapa.jpg">
+      <h3>O Bosque Amazonas</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus mi augue, viverra sit amet ultricies</p>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <p>Alexandra Barcellos, Copyright &copy; 2018</p>
+</footer>
+
+
+</body>
+</html>
