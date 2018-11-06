@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device=width">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<title>OBRAS</title>
+</head>
+<body>
+ <header>
+  <div class="container">
+    <div id="branding">
+     <h1><span class="highlight">Alexandra</span>Barcellos</h1>
+   </div>
+   <nav>
+     <ul>
+      <li class="btn-group btn-group-lg" role"group"><a href="index.html">Ínicio</a></li>
+      <li><a href="about.html">SOBRE</a></li>
+      <li><a href="login.html">OBRAS</a></li>
+      <li><a href="eventos.html">EVENTOS</a></li>
+      <li><a href="contato.html">CONTATO</a></li>
+    </ul>
+  </nav>
+</div>
+</header>
+<br><br><br>
+<h2 class="container">BOOK TYPE</h2>
+<section id="boxes">
+  <div class="container">
+    <div class="box">
+      <img src="http://4.bp.blogspot.com/-qp9c4fDEADw/VA5Loz_ixzI/AAAAAAAACbk/s6CLmk6wk_o/s1600/alexandra%2B1.jpg">
+      <h3>Velho Talismã</h3><br>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus mi augue, viverra sit amet ultricies</p>
+      <a href="https://www.livrariacultura.com.br/p/livros/literatura-nacional/poesia/velho-talisma-15067909">
+        <button class="button_2">COMPRAR</button>  
+      </a>
+    </div>
+    <div class="box">
+      <img src="https://cdn.shopify.com/s/files/1/0837/0935/products/encontro-na-mata-dos-macacos_1024x1024.jpg?v=1445637229">
+      <h3>O Encontro na Mata<br> dos Macacos</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus mi augue, viverra sit amet ultricies</p>
+      <a href="https://www.livrariacultura.com.br/p/livros/literatura-nacional/poesia/velho-talisma-15067909">
+        <button class="button_2">COMPRAR</button>  
+      </a>
+    </div>
+    <div class="box">
+      <img src="https://3.bp.blogspot.com/-VcvJMgEt00s/WgDrPlIa9lI/AAAAAAAAPlk/zoO6x_CSjKk3nyuKouM6g_mPQuWe6Cn9QCLcBGAs/s1600/O%2Bbosque%2BAmazona%2Bcapa.jpg">
+      <h3>O Bosque Amazonas</h3><br>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus mi augue, viverra sit amet ultricies</p>
+      <a href="https://www.livrariacultura.com.br/p/livros/literatura-nacional/poesia/velho-talisma-15067909">
+        <button class="button_2">COMPRAR</button>  
+      </a>
+    </div>
+  </div>
+</section>
+<br>
+<h2 class="container">BOOK TYPE</h2>
+<section id="boxes">
+  <div class="container">
+    <div class="box">
+      <img src="https://livrariascuritiba.vteximg.com.br/arquivos/ids/947050-525-525/lv421731_1.jpg?v=636443791895600000">
+      <h3>Ávore Mãe</h3><br>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus mi augue, viverra sit amet ultricies</p>
+      <a href="https://www.livrariacultura.com.br/p/livros/literatura-nacional/poesia/velho-talisma-15067909">
+        <button class="button_2">COMPRAR</button>  
+      </a>
+    </div>
+    <div class="box">
+      <img src="https://livrariascuritiba.vteximg.com.br/arquivos/ids/590679-525-525/LV217220.jpg?v=635756828105000000">
+      <h3>Guaçatunga<br> dos Macacos</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus mi augue, viverra sit amet ultricies</p>
+      <a href="https://www.livrariacultura.com.br/p/livros/literatura-nacional/poesia/velho-talisma-15067909">
+        <button class="button_2">COMPRAR</button>  
+      </a>
+    </div>
+    <div class="box">
+      <img src="https://3.bp.blogspot.com/-VcvJMgEt00s/WgDrPlIa9lI/AAAAAAAAPlk/zoO6x_CSjKk3nyuKouM6g_mPQuWe6Cn9QCLcBGAs/s1600/O%2Bbosque%2BAmazona%2Bcapa.jpg">
+      <h3>O Bosque Amazonas</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus mi augue, viverra sit amet ultricies</p>
+      <a href="https://www.livrariacultura.com.br/p/livros/literatura-nacional/poesia/velho-talisma-15067909">
+        <button class="button_2">COMPRAR</button>  
+      </a>
+    </div>
+  </div>
+</section>
+<br>
+<h2 class="container">BOOK TYPE</h2>
+<section id="boxes">
+  <div class="container">
+    <div class="box">
+      <img src="http://4.bp.blogspot.com/-qp9c4fDEADw/VA5Loz_ixzI/AAAAAAAACbk/s6CLmk6wk_o/s1600/alexandra%2B1.jpg">
+      <h3>Velho Talismã</h3><br>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus mi augue, viverra sit amet ultricies</p>
+      <a href="https://www.livrariacultura.com.br/p/livros/literatura-nacional/poesia/velho-talisma-15067909">
+        <button class="button_2">COMPRAR</button>  
+      </a>
+    </div>
+    <div class="box">
+      <img src="https://cdn.shopify.com/s/files/1/0837/0935/products/encontro-na-mata-dos-macacos_1024x1024.jpg?v=1445637229">
+      <h3>O Encontro na Mata<br> dos Macacos</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus mi augue, viverra sit amet ultricies</p>
+      <a href="https://www.livrariacultura.com.br/p/livros/literatura-nacional/poesia/velho-talisma-15067909">
+        <button class="button_2">COMPRAR</button>  
+      </a>
+    </div>
+    <div class="box">
+      <img src="https://3.bp.blogspot.com/-VcvJMgEt00s/WgDrPlIa9lI/AAAAAAAAPlk/zoO6x_CSjKk3nyuKouM6g_mPQuWe6Cn9QCLcBGAs/s1600/O%2Bbosque%2BAmazona%2Bcapa.jpg">
+      <h3>O Bosque Amazonas</h3><br>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus mi augue, viverra sit amet ultricies</p>
+      <a href="https://www.livrariacultura.com.br/p/livros/literatura-nacional/poesia/velho-talisma-15067909">
+        <button class="button_2">COMPRAR</button>  
+      </a>
+    </div>
+  </div>
+</section>
+
+
+
+
+</body>
+</html>
