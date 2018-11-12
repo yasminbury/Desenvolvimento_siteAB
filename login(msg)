@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<title>Aula 11 - login</title>
+</head>
+<body class="container">
+   <?php 
+    include 'menu.php';
+    
+     if(!empty($_GET['msg']))
+     {
+       $msg = $_GET['msg'];
+
+       if ($msg == 'emptyFields')
+       {
+       	  print'<div class ="alert alert-warning" role="alert">';
+       	  print'<h4 class = "alert-heading"> ATENÇÃO:</h4>';
+       	  print'<p>Preencha todos os campos do formulário!</p></div>'; 
+       }
+       else if($msg =='loginError')
+       {
+       	 print'<div class ="alert alert-danger" role="alert">'; 
+       	 print'<h4 class ="alert-heading"> OOPS!</h4><hr>';
+       	 print'<p>Usuário, e-mail ou senha inválidos.</p></div>';
+       }
+
+     }
+
+
+	 include 'form_login.php'; 
+
+
+
+
+   ?>
+    
+
+</body>
+</html>
